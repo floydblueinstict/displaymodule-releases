@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Display Module App Store</title>
+<title>Pix Store</title>
 <style>
   :root { --bg:#0b0e14; --panel:#141a24; --grid:#2a3140; --text:#f2f4f8; --muted:#8c96aa; --accent:#f7931a; --blue:#1b6fb3; }
   * { box-sizing: border-box; }
@@ -30,13 +30,13 @@
 </head>
 <body>
 <header>
-  <h1>Display Module App Store</h1>
+  <h1>Pix Store</h1>
   <span class="sub" id="gen">loading…</span>
   <a href="admin.html">admin</a>
 </header>
 <main>
   <div class="note">
-    <b>On the device:</b> open the launcher, tap <b>App Store</b> at the top right and pick the apps you want; they download straight to the card.
+    <b>On the device:</b> tap <b>Pix Store</b> on the Pixlet home and pick the Pixlets you want; they download straight to the card.
     <b>From here:</b> download <code>firmware.bin</code>, then upload it with the SD Manager web page into <code>/apps/&lt;id&gt;/</code>
     on the card together with an <code>app.json</code> (the button below copies it). The launcher lists the app on its next visit.
   </div>
@@ -48,7 +48,7 @@ const fmtKB = n => n >= 1048576 ? (n/1048576).toFixed(2)+' MB' : Math.round(n/10
 async function main() {
   const r = await fetch('manifest.json', {cache:'no-store'});
   const m = await r.json();
-  document.getElementById('gen').textContent = `${m.apps.length} apps · built ${new Date(m.generated).toLocaleString()}`;
+  document.getElementById('gen').textContent = `${m.apps.length} Pixlets · built ${new Date(m.generated).toLocaleString()}`;
   const grid = document.getElementById('grid');
   const order = a => a.id === 'launcher' ? 0 : 1;
   for (const a of m.apps.sort((x,y) => order(x)-order(y) || x.title.localeCompare(y.title))) {
