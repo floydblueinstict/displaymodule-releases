@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T15:50:27Z",
+ "generated": "2026-09-08T16:45:17Z",
  "apps": [
   {
    "id": "btc-monitor",
@@ -7,7 +7,7 @@
    "description": "Crypto terminal: live Binance chart, indicators, order book, alerts.",
    "version": "0.7",
    "size": 1847584,
-   "sha256": "6304b1766f9e492d80f9fc9a8719d37f668940aa9db783733af4b9ca454eac52",
+   "sha256": "4046b22ac9c2c89af532ccc094613f9dcf0bcda4ccef08a9d62c3b5538867fa7",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/btc-monitor/firmware.bin"
   },
   {
@@ -16,8 +16,17 @@
    "description": "Basic four-function calculator.",
    "version": "0.2",
    "size": 866608,
-   "sha256": "61d68918cc5d0bb806d87af92ce73a96da8061d144a9cd4dad4beceb2b5c7253",
+   "sha256": "dabbd93da503412e97e6e70742cdb7315ef66fc937e80e2fc58f00fbd9517dfc",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/calculator/firmware.bin"
+  },
+  {
+   "id": "clock",
+   "title": "Clock",
+   "description": "",
+   "version": "0.1",
+   "size": 1945072,
+   "sha256": "64a1637f17f53f47835ca0e560b657a5e35296369ba320479a94f85b92dc4894",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/clock/firmware.bin"
   },
   {
    "id": "dice",
@@ -25,7 +34,7 @@
    "description": "Dice roller, 1 to 6 dice from d4 to d100.",
    "version": "0.4",
    "size": 914496,
-   "sha256": "240306634ce9b5d98f58206c6dacee00d9e9201e15b5458f50405b158e10e304",
+   "sha256": "0f0278229a0c96b20e2639034aed364d55bc7b726cb7728696dbb02371d9e3dc",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/dice/firmware.bin"
   },
   {
@@ -34,7 +43,7 @@
    "description": "The app menu itself. Installs when you next start any app.",
    "version": "1.1",
    "size": 1536416,
-   "sha256": "eabc6a9bf331312f6ad54ee26fa8c3ff51025d97ac9cad073d09bfbc745a8c85",
+   "sha256": "c0688583a1cfa9682cfe20d93aa58de827ac1045d385b20eb7b23cd4b9b756f3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -43,7 +52,7 @@
    "description": "Music player for the card with spectrum analyzer.",
    "version": "0.2",
    "size": 2151936,
-   "sha256": "44ebfd58401872a1530d5208bfff1e9bdb4f85379ed0143d61b43be7e2c24a70",
+   "sha256": "979a19eff4f207d0b03fc13adf18323604bde8050aed82d2bd433d40903ed864",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/mp3/firmware.bin"
   },
   {
@@ -52,7 +61,7 @@
    "description": "JPEG photo frame from the Photos folder.",
    "version": "0.2",
    "size": 1533440,
-   "sha256": "4d9ad8aca9c699afac75e08f914eb62a063c6eb98e672e1ca7ce62916eac8b94",
+   "sha256": "9ac4e3ac01d792de0c0dcb767910dfba8f15ad4cddc4b4bb5b87db778c119b71",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/photos/firmware.bin"
   },
   {
@@ -60,8 +69,8 @@
    "title": "Pomodoro",
    "description": "Focus and break cycles on a ring with session dots.",
    "version": "0.3",
-   "size": 914848,
-   "sha256": "1121d15d2b38fd142ba1a125a4edc3b2a56532bc64df118a3d54b6c73a0ceed8",
+   "size": 914832,
+   "sha256": "ef30e6f0230f5cff6ac2ade68be0cf22737dabecd802c244200700daf52cb86e",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/pomodoro/firmware.bin"
   },
   {
@@ -70,7 +79,7 @@
    "description": "Score keeper for up to six players.",
    "version": "0.5",
    "size": 916720,
-   "sha256": "a77b3643b1d3e766040624ba1835fa4a030012f896ced06b097121f77fc3ac0b",
+   "sha256": "93ad110da99596a70a9650d94d3d16b0bd71e3d21a6e31f07159e46be645eff2",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/scores/firmware.bin"
   },
   {
@@ -79,7 +88,7 @@
    "description": "Hotspot and web page to manage the card's files.",
    "version": "0.4",
    "size": 1472336,
-   "sha256": "e23f7ffa798b1eca07776882f5d8de90c6159ea32a10610ac8987fa525f560b2",
+   "sha256": "f5a9e32504415704a9cac959fe3d410ed9c3e1c72fcb0bcdb87f45a3b99e4660",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/sdmanager/firmware.bin"
   },
   {
@@ -88,7 +97,7 @@
    "description": "Stopwatch to 1/100 s with lap list.",
    "version": "0.2",
    "size": 854368,
-   "sha256": "4343e12f2120b264e9fec36a85f7296971b439227db86981c70d300ba9ca68c6",
+   "sha256": "81b5152897df37cf1c21ba654f261061bb5a872a12a9242dd4674426b49bbdb3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/stopwatch/firmware.bin"
   },
   {
@@ -97,7 +106,7 @@
    "description": "Four countdown timers with flashing and beeping alarms.",
    "version": "0.3",
    "size": 914832,
-   "sha256": "d55b4ae1a00282287f4c40e34e2c1a4071944cb119145fe4ee70e7e30c183bdd",
+   "sha256": "a3ab927f55dc96ab48f01d36f93d163968dc212282328b7395f7a45ecaf947e4",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/timers/firmware.bin"
   },
   {
@@ -106,7 +115,7 @@
    "description": "Unit converter, eight categories.",
    "version": "0.2",
    "size": 850016,
-   "sha256": "5bc858ba79d6927750423ccd0156fed3499edcfe046e27279362bd7417d7b922",
+   "sha256": "e59f4e8bdfb6dca061b65e257b9ecdc72cfa952d8d5a4c3ad976941899a0192f",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/units/firmware.bin"
   },
   {
@@ -115,7 +124,7 @@
    "description": "Weather for six places with hourly and 7-day forecasts.",
    "version": "0.2",
    "size": 1609312,
-   "sha256": "79256961fd1794a286cdd4c7bad0918fc69d7b0efeec11812f4b62ea31e258ab",
+   "sha256": "385ac3aaeb7fc5c64ea57d862d5809c0c2bcfccdfc8bddd4335c91abfbb77e39",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/weather/firmware.bin"
   },
   {
@@ -124,7 +133,7 @@
    "description": "Six city clocks with time zones and DST, NTP synced.",
    "version": "0.5",
    "size": 1478416,
-   "sha256": "b08bda0286a82c13da10cf2256bf826817b4b16353944f93504b3abb9390032d",
+   "sha256": "49674d4b4bef22ac217e7fbf9a793bcbcb407b0cc7a4c1a910832e60937a0d18",
    "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/worldtime/firmware.bin"
   }
  ]
