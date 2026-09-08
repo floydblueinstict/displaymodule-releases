@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T19:01:08Z",
+ "generated": "2026-09-08T21:01:32Z",
  "apps": [
   {
    "id": "btc-monitor",
@@ -7,8 +7,8 @@
    "description": "Crypto terminal: live Binance chart, indicators, order book, alerts.",
    "version": "0.7",
    "size": 1847584,
-   "sha256": "19d50af7f40d6d5d9b4d98d256378328978cfbb7d0ad37e4e52c03afcc7d6fb5",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/btc-monitor/firmware.bin"
+   "sha256": "07112bf27e8f22ea8cf3d685d0a4c95b9e0bb321646ca50a4c73f2652f706a61",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/btc-monitor/firmware.bin"
   },
   {
    "id": "calculator",
@@ -16,8 +16,8 @@
    "description": "Basic four-function calculator.",
    "version": "0.2",
    "size": 866608,
-   "sha256": "9259d2a1135d9e98d228f45219d80a1e1f557d128f199a15813139e4cc077645",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/calculator/firmware.bin"
+   "sha256": "bcc9ef52fd1504c835f33115efc031f8c782cccdbf3b0b33ae4cc29b66df9ef8",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
    "id": "clock",
@@ -25,8 +25,8 @@
    "description": "Seven-segment clock, hourly chime, six repeating alarms.",
    "version": "0.1",
    "size": 1945072,
-   "sha256": "e7fb250ab8f8c1bb6b358253770bf0c9da5a150e5468ee63415a68462d37e6e3",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/clock/firmware.bin"
+   "sha256": "7ff5e459c615b40cb469c3e9550a599c12c56c47061341c5066badc6d407c8d2",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/clock/firmware.bin"
   },
   {
    "id": "dice",
@@ -34,17 +34,17 @@
    "description": "Dice roller, 1 to 6 dice from d4 to d100.",
    "version": "0.4",
    "size": 914496,
-   "sha256": "0d3f0da473807eac41f151688d6c6d178c77aa153c31dcbed20941420a31dd55",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/dice/firmware.bin"
+   "sha256": "6b7f9c6ecd038f85c7e0b13db7ecc96a4501231e58fca39e7e6ac5b3ffc0beb4",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/dice/firmware.bin"
   },
   {
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "version": "1.1",
-   "size": 1536416,
-   "sha256": "741841099bc9135712595a0c3244cebfed020d50b1bdc85aa5dc48d284e6fd94",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/launcher/firmware.bin"
+   "version": "1.11",
+   "size": 1664064,
+   "sha256": "cf08693fa53eb7eb5bfd27134d9db7e2e5c973e73a8e5e4bd4830b3825679927",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
    "id": "macropad",
@@ -52,8 +52,8 @@
    "description": "Six programmable Bluetooth keyboard buttons for your PC or Mac.",
    "version": "0.1",
    "size": 1085952,
-   "sha256": "ea652645d8878ef134212f6ede8c44f98b030c0fff7ab05eb7a75c8138d41118",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/macropad/firmware.bin"
+   "sha256": "2d8f086a53e5835f8530522ebe0767663464f9ef0ef7c3f53e87b9f788f96865",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/macropad/firmware.bin"
   },
   {
    "id": "mp3",
@@ -61,8 +61,8 @@
    "description": "Music player for the card with spectrum analyzer.",
    "version": "0.2",
    "size": 2151936,
-   "sha256": "db93bc8580617002cf51955b1e42a29c4d813f2cad22306865f13bd1d988699b",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/mp3/firmware.bin"
+   "sha256": "f83f67b6e6a2e072e2503db9c399db94d31019d7dcd65813e71484fc57a7502e",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/mp3/firmware.bin"
   },
   {
    "id": "photos",
@@ -70,35 +70,35 @@
    "description": "JPEG photo frame from the Photos folder.",
    "version": "0.2",
    "size": 1533440,
-   "sha256": "7a096702b19da5d0f87ce6e80658d695435d0cff9896f3423afeab9dd4109e62",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/photos/firmware.bin"
+   "sha256": "7e8ddad7d36925867d2f4a92e5d4a4fd7208e5dc32844ffec025da97e1c4c558",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/photos/firmware.bin"
   },
   {
    "id": "pomodoro",
    "title": "Pomodoro",
    "description": "Focus and break cycles on a ring with session dots.",
    "version": "0.3",
-   "size": 914832,
-   "sha256": "24c56762a6dc9129ecc6428ddb4ac1120533249c8baa9efdd27d2ea1a1e7a20a",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/pomodoro/firmware.bin"
+   "size": 914848,
+   "sha256": "e863f3c004615a9b751dbb30313f9519a6c381a6ac3268627e6e7f0fcd1d1578",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/pomodoro/firmware.bin"
   },
   {
    "id": "scores",
    "title": "Game Scores",
    "description": "Score keeper for up to six players.",
    "version": "0.5",
-   "size": 916720,
-   "sha256": "9e85e2a35e06df07df5f5dc1c48b221f71aaf6f5695619627f213b947f32ec09",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/scores/firmware.bin"
+   "size": 916704,
+   "sha256": "ff851faebfebca04bf67502761b838fef9d1ffda1352ad943649412e8a05a62b",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/scores/firmware.bin"
   },
   {
    "id": "sdmanager",
    "title": "SD Manager",
    "description": "Hotspot and web page to manage the card's files.",
-   "version": "0.4",
-   "size": 1472336,
-   "sha256": "717bf32d889f749f6baa2be284de394b352877cbbe30db0ebc01cdcb31caa168",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/sdmanager/firmware.bin"
+   "version": "0.5",
+   "size": 1472416,
+   "sha256": "bfdda4a53493453e4d2b9ed2f210bf9938ffe26551a06158e7b362ea3d3af2c2",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sdmanager/firmware.bin"
   },
   {
    "id": "stopwatch",
@@ -106,8 +106,8 @@
    "description": "Stopwatch to 1/100 s with lap list.",
    "version": "0.2",
    "size": 854368,
-   "sha256": "1789e5fa777e95962be96a04519dcba10b16b04361d61403efae1835d1500b54",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/stopwatch/firmware.bin"
+   "sha256": "0c7b9fd942e67d01ec8e546fb0a49a569cf07223217c467c7e30fd15e5cf4c95",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/stopwatch/firmware.bin"
   },
   {
    "id": "timers",
@@ -115,8 +115,8 @@
    "description": "Four countdown timers with flashing and beeping alarms.",
    "version": "0.3",
    "size": 914832,
-   "sha256": "08b7ac18a77e17c74ec9be704634c9fad75afafa910ccf3ede52f344a78a85fe",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/timers/firmware.bin"
+   "sha256": "3b4f8fae4704fb6e584d9625c87be155156363cc0c8f83ae3667bcf419ff455c",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/timers/firmware.bin"
   },
   {
    "id": "units",
@@ -124,8 +124,8 @@
    "description": "Unit converter, eight categories.",
    "version": "0.2",
    "size": 850016,
-   "sha256": "196748427657a8dd6254b63c5d7744a2581d044909581473588bd56ef20499cb",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/units/firmware.bin"
+   "sha256": "319296db6eb1d1926a25a3076b7d795021731f7f44fecea662e6c8cb6739aefa",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/units/firmware.bin"
   },
   {
    "id": "weather",
@@ -133,8 +133,8 @@
    "description": "Weather for six places with hourly and 7-day forecasts.",
    "version": "0.2",
    "size": 1609312,
-   "sha256": "04b2f52a874110e228b358120df7f67c420528812cc1ce1c339914535dfb377b",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/weather/firmware.bin"
+   "sha256": "a0167194efaff7636286cafaba5c774b15a5af30305010cb8e4723d6acbdd12f",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/weather/firmware.bin"
   },
   {
    "id": "worldtime",
@@ -142,8 +142,8 @@
    "description": "Six city clocks with time zones and DST, NTP synced.",
    "version": "0.5",
    "size": 1478416,
-   "sha256": "1cf0f51425ea0b48491b0ca5958e206ec2d2134ec75e864001e27112006edaba",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/displaymodule-releases/main/apps/worldtime/firmware.bin"
+   "sha256": "1934a80b7e0f4d4a3359e0b3cfa9de6f2401950cfebdd8edc0735a8490e51830",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/worldtime/firmware.bin"
   }
  ]
 }
