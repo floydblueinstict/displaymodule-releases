@@ -5,24 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pix Store</title>
 <style>
-  :root { --bg:#0b0e14; --panel:#141a24; --grid:#2a3140; --text:#f2f4f8; --muted:#8c96aa; --accent:#f7931a; --blue:#1b6fb3; }
+  :root { --bg:#1a1b3a; --panel:#26284f; --grid:#3a3d6b; --text:#fff6e5; --muted:#a9accf; --accent:#ffd93d; --blue:#4d96ff; --coral:#ff6b6b; --mint:#6bcb77; --grape:#c77dff; --peach:#ffb26b; --ink:#1a1b3a; }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--bg); color:var(--text); font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
   header { padding: 28px 24px 12px; max-width: 1100px; margin: 0 auto; display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; }
-  header h1 { margin:0; font-size: 26px; color: var(--accent); }
+  header h1 { margin:0; font-size: 28px; color: var(--text); display:flex; align-items:center; }
+  header .tag { width:100%; color: var(--muted); font-size: 14px; margin-top:-6px; }
+  .mark { display:inline-grid; grid-template-columns: 1fr 1fr; gap:3px; width:30px; height:30px; vertical-align:middle; margin-right:10px; }
+  .mark i { display:block; border-radius:4px; }
+
   header .sub { color: var(--muted); }
   header a { color: var(--muted); margin-left:auto; font-size: 13px; }
   main { max-width: 1100px; margin: 0 auto; padding: 8px 24px 40px; }
   .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
-  .card { background: var(--panel); border: 1px solid var(--grid); border-radius: 12px; padding: 16px; display:flex; flex-direction:column; gap:8px; }
+  .card { background: var(--panel); border: 0; border-top: 6px solid var(--accent); border-radius: 14px; padding: 16px; display:flex; flex-direction:column; gap:8px; }
   .card h2 { margin:0; font-size: 18px; display:flex; align-items:center; gap:8px; }
-  .card .ver { font-size: 12px; color: var(--muted); background: var(--grid); border-radius: 10px; padding: 2px 8px; }
+  .card .ver { font-size: 12px; color: var(--ink); background: var(--accent); border-radius: 10px; padding: 2px 8px; font-weight:600; }
+  .card:nth-child(6n+2) { border-top-color: var(--coral); } .card:nth-child(6n+3) { border-top-color: var(--mint); }
+  .card:nth-child(6n+4) { border-top-color: var(--blue); } .card:nth-child(6n+5) { border-top-color: var(--grape); } .card:nth-child(6n) { border-top-color: var(--peach); }
   .card p { margin:0; color: var(--muted); flex:1; }
   .card .meta { font-size: 12px; color: var(--muted); word-break: break-all; }
   .card .row { display:flex; gap:8px; align-items:center; }
-  .btn { display:inline-block; background: var(--blue); color:#fff; text-decoration:none; padding: 9px 14px; border-radius: 8px; font-weight: 600; font-size:14px; border:0; cursor:pointer; }
+  .btn { display:inline-block; background: var(--blue); color:var(--ink); text-decoration:none; padding: 9px 14px; border-radius: 8px; font-weight: 600; font-size:14px; border:0; cursor:pointer; }
   .btn.ghost { background: var(--grid); }
-  .note { background: var(--panel); border-left: 4px solid var(--accent); padding: 12px 16px; border-radius: 8px; margin: 18px 0; color: var(--muted); }
+  .note { background: var(--panel); border-left: 6px solid var(--coral); padding: 12px 16px; border-radius: 8px; margin: 18px 0; color: var(--muted); }
   .note b { color: var(--text); }
   code { background: var(--grid); padding: 1px 5px; border-radius: 4px; font-size: 13px; }
   footer { color: var(--muted); font-size: 12px; text-align:center; padding: 20px; }
@@ -30,9 +36,10 @@
 </head>
 <body>
 <header>
-  <h1>Pix Store</h1>
+  <h1><span class="mark" aria-hidden="true"><i style="background:var(--coral)"></i><i style="background:var(--accent)"></i><i style="background:var(--blue)"></i><i style="background:var(--mint)"></i></span>Pix Store</h1>
   <span class="sub" id="gen">loading…</span>
   <a href="admin.html">admin</a>
+  <span class="tag">Pixlets for your Pixlet, a tiny computer for useful things.</span>
 </header>
 <main>
   <div class="note">
@@ -42,7 +49,7 @@
   </div>
   <div class="grid" id="grid"></div>
 </main>
-<footer>Guition JC3248W535 ESP32-S3 3.5" touch display · images are built automatically from the source repository · verify downloads with the SHA-256 shown on each card</footer>
+<footer>Pixlet is a product of BlueInstinct SL · <a href="https://blueinstinct.com" style="color:var(--muted)">blueinstinct.com</a> · images are built automatically from the source repository · verify downloads with the SHA-256 shown on each card</footer>
 <script>
 const fmtKB = n => n >= 1048576 ? (n/1048576).toFixed(2)+' MB' : Math.round(n/1024)+' KB';
 async function main() {

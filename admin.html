@@ -5,20 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pix Store admin</title>
 <style>
-  :root { --bg:#0b0e14; --panel:#141a24; --grid:#2a3140; --text:#f2f4f8; --muted:#8c96aa; --accent:#f7931a; --blue:#1b6fb3; --red:#b3261e; --green:#1b7f4f; }
+  :root { --bg:#1a1b3a; --panel:#26284f; --grid:#3a3d6b; --text:#fff6e5; --muted:#a9accf; --accent:#ffd93d; --blue:#4d96ff; --coral:#ff6b6b; --mint:#6bcb77; --grape:#c77dff; --peach:#ffb26b; --ink:#1a1b3a;  --red:#b3261e; --green:#1b7f4f; }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--bg); color:var(--text); font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
   header { padding: 28px 24px 12px; max-width: 900px; margin: 0 auto; display:flex; align-items:baseline; gap:16px; }
-  header h1 { margin:0; font-size: 24px; color: var(--accent); }
+  header h1 { margin:0; font-size: 24px; color: var(--text); display:flex; align-items:center; }
+  .mark { display:inline-grid; grid-template-columns: 1fr 1fr; gap:3px; width:30px; height:30px; vertical-align:middle; margin-right:10px; }
+  .mark i { display:block; border-radius:4px; }
+
   header a { color: var(--muted); margin-left:auto; font-size:13px; }
   main { max-width: 900px; margin: 0 auto; padding: 8px 24px 40px; }
   section { background: var(--panel); border:1px solid var(--grid); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
   h2 { margin: 0 0 10px; font-size: 17px; }
   label { display:block; color: var(--muted); font-size: 13px; margin: 8px 0 4px; }
-  input[type=text], input[type=password], textarea { width:100%; background:#0f131b; color:var(--text); border:1px solid var(--grid); border-radius:8px; padding: 9px 10px; font-size: 15px; }
+  input[type=text], input[type=password], textarea { width:100%; background:#14153a; color:var(--text); border:1px solid var(--grid); border-radius:8px; padding: 9px 10px; font-size: 15px; }
   input[type=file] { color: var(--muted); }
-  .btn { background: var(--blue); color:#fff; border:0; padding: 9px 14px; border-radius: 8px; font-weight:600; font-size:14px; cursor:pointer; }
-  .btn.red { background: var(--red); } .btn.green { background: var(--green); } .btn.ghost { background: var(--grid); }
+  .btn { background: var(--blue); color:var(--ink); border:0; padding: 9px 14px; border-radius: 8px; font-weight:600; font-size:14px; cursor:pointer; }
+  .btn.red { background: var(--red); color:#fff; } .btn.green { background: var(--green); color:#fff; } .btn.ghost { background: var(--grid); color:var(--text); }
   .btn[disabled] { opacity: .5; cursor: default; }
   table { width:100%; border-collapse: collapse; }
   td, th { text-align:left; padding: 8px 6px; border-bottom: 1px solid var(--grid); font-size: 14px; vertical-align: middle; }
@@ -31,7 +34,7 @@
 </style>
 </head>
 <body>
-<header><h1>Pix Store admin</h1><a href="index.html">back to the store</a></header>
+<header><h1><span class="mark" aria-hidden="true"><i style="background:var(--coral)"></i><i style="background:var(--accent)"></i><i style="background:var(--blue)"></i><i style="background:var(--mint)"></i></span>Pix Store admin</h1><a href="index.html">back to the store</a></header>
 <main>
   <div id="status"></div>
 
