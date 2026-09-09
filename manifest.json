@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T13:10:43Z",
+ "generated": "2026-09-09T16:36:57Z",
  "apps": [
   {
    "id": "btc-monitor",
@@ -9,7 +9,7 @@
    "version": "0.8",
    "system": false,
    "size": 1844768,
-   "sha256": "84347ebc458090d51f4a4c733193ce1873debadf2a8e1848bcd5aaa0056f26af",
+   "sha256": "fb1b901ac1c859d549122d07cd67091112a46a395cfc9200e01a5290d9060ca9",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/btc-monitor/firmware.bin"
   },
   {
@@ -20,7 +20,7 @@
    "version": "0.3",
    "system": false,
    "size": 867600,
-   "sha256": "7d931bd5f09d089348ac749c1e75a431be8015efa92c414992b0b051520fd374",
+   "sha256": "d09931db1ceac0c698bf6ac10b4a4139e944f509739df8b4a3b6c358039fc36f",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
@@ -31,7 +31,7 @@
    "version": "0.2",
    "system": true,
    "size": 1944160,
-   "sha256": "633a8a764bc0ab79e89a163768d024e0e1cb5599051ca8d576dff9feb2489bbb",
+   "sha256": "b7121b5ed9fa20a202d07a7aabce1e89deb6d15bccbf746237d0c473ee15f5a6",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/clock/firmware.bin"
   },
   {
@@ -42,7 +42,7 @@
    "version": "0.5",
    "system": false,
    "size": 915520,
-   "sha256": "94cdab360b3c358bdfc6c7c2d11319140a01c3002c21ef46e013bd7d30fe356f",
+   "sha256": "92a53345384450f49d1e28ba2d62c4f5352754f1a7d67f1dbbc28839cca1479b",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/dice/firmware.bin"
   },
   {
@@ -53,18 +53,18 @@
    "version": "0.2",
    "system": false,
    "size": 1460128,
-   "sha256": "73d38624b416ebc98534396a5b8b0f63ede24a7f6b3a7fc3bed1f407f90724b3",
+   "sha256": "253a0dea2a32ee9d2cfdcf17bff4ed44754782aa2a51b783657c9ff705afeed3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/habits/firmware.bin"
   },
   {
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.11: Settings > Home now has a time zone picker that shows the resulting current time and UTC offset, and a separate searchable weather place.",
-   "version": "3.11",
+   "notes": "3.13: WiFi: a join panel with a Connect button that stays above the keyboard, saved networks (up to six, one-tap join, long-press to forget) and automatic joining of the strongest saved network at boo",
+   "version": "3.13",
    "system": false,
-   "size": 1745120,
-   "sha256": "b8f67b4e956cd40cfe0517df6618254f432a4d7360e5e0909c4ea64b955a5424",
+   "size": 1750656,
+   "sha256": "2cc36fb3063e29ba75827df6161eed0442b096ddc6b7331a777e3ae85b90de01",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -75,7 +75,7 @@
    "version": "0.2",
    "system": false,
    "size": 1086624,
-   "sha256": "e754e64622db0c780f267200b94656427eec372efebd3c00911e55f4ebdd9986",
+   "sha256": "411526931ab7bc072f73fbfe88b92e1e02a6000efb4eb90ee4481abbeb2ef6d0",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/macropad/firmware.bin"
   },
   {
@@ -86,7 +86,7 @@
    "version": "0.3",
    "system": false,
    "size": 2152736,
-   "sha256": "b00fbefba63b470fecc0681ee69ab4d2048972ceeec43e9579d7dddde6aed160",
+   "sha256": "2d437a81ce0c54289e43144803dfe0cee1accae8a82d1c4759b0274f6d55719a",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/mp3/firmware.bin"
   },
   {
@@ -97,7 +97,7 @@
    "version": "0.3",
    "system": false,
    "size": 1533920,
-   "sha256": "454d248e67b4ec326a8038b37728fe09f865d469e6bda5941273b417f89089e7",
+   "sha256": "a66ddee154f8216fd75bd393d1cde68bd1622a806521e5a4eb10769e47e2f839",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/photos/firmware.bin"
   },
   {
@@ -108,7 +108,7 @@
    "version": "0.4",
    "system": false,
    "size": 915248,
-   "sha256": "81cd7059737deee23f57023e4b47e10788016caabdedbfa765eaaa3adf29a1be",
+   "sha256": "44ff430304a2c5d89038cd14b3ee3e975c743851a0ce87247f72b28c15f47672",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/pomodoro/firmware.bin"
   },
   {
@@ -119,7 +119,7 @@
    "version": "0.6",
    "system": false,
    "size": 917696,
-   "sha256": "abd7608344b9f68afdbfa67eb32fea27c0b031002c5e66b6f9ff10b652353325",
+   "sha256": "ae169f53087fdcbd4228ebf9bfb49ba65ddc18c108996777596fb4f5c5ab3acf",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/scores/firmware.bin"
   },
   {
@@ -130,7 +130,7 @@
    "version": "0.6",
    "system": false,
    "size": 1473216,
-   "sha256": "da32c11f3c188f88de23767fa1ada4a60a93c23ff5000a69af6596ff05cf41b4",
+   "sha256": "12245e9982282b905b3a38233357852c9e7679e4f48db67c5db85f5ab0534d13",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sdmanager/firmware.bin"
   },
   {
@@ -141,7 +141,7 @@
    "version": "0.3",
    "system": false,
    "size": 855392,
-   "sha256": "9d36fb66c071a6d5443e92fde4603fa16f9859a3e37ec105b9b82572ac548182",
+   "sha256": "d172699b56b8a3b0ff09640803c395981592833973db9cdbe630d67ddb932106",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/stopwatch/firmware.bin"
   },
   {
@@ -152,7 +152,7 @@
    "version": "0.4",
    "system": true,
    "size": 915520,
-   "sha256": "869fef1702096590662f58bb5ede1f6d831d4b228428d65b4eae71c95116629c",
+   "sha256": "5d98fafde1681cb1e7c72ea362ad1269bf1126f65190e5f5c5ccbad54458db71",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/timers/firmware.bin"
   },
   {
@@ -163,7 +163,7 @@
    "version": "0.3",
    "system": false,
    "size": 851040,
-   "sha256": "5250cdb84c6072a7e8a1e36e5c79702d8153c64624b0d3c20c3578712a761b31",
+   "sha256": "0257de8a8f25a8a831581a7ae7edf08460e3156431371503e04e9288459b2c3a",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/units/firmware.bin"
   },
   {
@@ -174,7 +174,7 @@
    "version": "0.3",
    "system": false,
    "size": 1608304,
-   "sha256": "57c4ded545cf7f93ec1dc66d4d4bc5fb888c9f348b91ebefab177c392c3d2f88",
+   "sha256": "f2f525463b1e32c118cef383c64391459e04f314df19123d82a42e726862fd80",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/weather/firmware.bin"
   },
   {
@@ -185,7 +185,7 @@
    "version": "0.7",
    "system": false,
    "size": 1477184,
-   "sha256": "6409f6167253052891abffe2f6675e47515c7c1868eb5db1808fc5aca6a9da82",
+   "sha256": "1a8a6e75f1592760a7652153f797ddeff213cc475ab8a5f3c8f24f1a5936455a",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/worldtime/firmware.bin"
   }
  ]
