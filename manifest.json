@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T05:50:09Z",
+ "generated": "2026-09-09T07:14:16Z",
  "apps": [
   {
    "id": "btc-monitor",
@@ -8,7 +8,7 @@
    "notes": "",
    "version": "0.7",
    "size": 1847600,
-   "sha256": "b65546697bf251cb273fa1d42479f42230346c1388802ae99c252c4bfe79ec07",
+   "sha256": "7759633eb7d5eede1d4df0b9762d578bb01a686850477dcd6815f93260e97288",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/btc-monitor/firmware.bin"
   },
   {
@@ -18,7 +18,7 @@
    "notes": "",
    "version": "0.2",
    "size": 866640,
-   "sha256": "b7706b24e330349e9d274d863289659ecc69762e539a294f152ebbca52131d93",
+   "sha256": "90580e458118ff894bbe113e76736e87fc9005fbab1be33470b5e565c747a341",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
@@ -28,17 +28,17 @@
    "notes": "0.1: First release: seven-segment clock, spoken or beeping hourly chime, six repeating alarms with snooze.",
    "version": "0.1",
    "size": 1945120,
-   "sha256": "bcbef1ccdf3a6f58daf2d2caf192165c87101296336f45dde799af1d73315700",
+   "sha256": "f1673b2b324edcc8c2c9308fd0755a358e9a1d989ae39919096fef6457928406",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/clock/firmware.bin"
   },
   {
    "id": "desktop",
    "title": "Desktop",
    "description": "Time, date, second city, weather, Bitcoin, news ticker and more on one screen.",
-   "notes": "0.1: First release: time, date, second city, weather, Bitcoin, plus optional Ethereum, news ticker, air quality, sunrise/sunset and moon phase.",
-   "version": "0.1",
-   "size": 1628608,
-   "sha256": "9ca1c2d6b9109a7236d9f72fee1dd3d9d3ee629f3292c55106059268c44ad520",
+   "notes": "0.3: Several news categories can be selected at once and the panel cycles through them; the refresh-interval buttons now show which one is active.",
+   "version": "0.3",
+   "size": 1613040,
+   "sha256": "f56722343812faa65e44d8cce39162718c1944dc099bccc289c46954040c05f2",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/desktop/firmware.bin"
   },
   {
@@ -48,7 +48,7 @@
    "notes": "",
    "version": "0.4",
    "size": 914528,
-   "sha256": "a6cf4f5ce0ac95edf4871716ffb46e3674a0d6ce5bd97f33a8d0028a0a7f235c",
+   "sha256": "881b49d97959941936a6fe5b286012e5e84404199ae5a08a9afe061ff6ae2fac",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/dice/firmware.bin"
   },
   {
@@ -58,7 +58,7 @@
    "notes": "2.3: Pix Store rows show title and version only; long-press a row for the description, versions and what's new. Six device-memory slots: keep Pixlets on the device (long-press a tile), instant start, ",
    "version": "2.3",
    "size": 1670112,
-   "sha256": "078d6e8a0cff71ef9ac1027418f4f7637ff99fc5ebe463ac1bd0aead5bc2f46f",
+   "sha256": "c96e0d5cc1166ab90a1521aea338c278edc1fef971b59e03628a77bdf58b7114",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -68,7 +68,7 @@
    "notes": "0.1: First release: six Bluetooth keyboard buttons with key combos, typed text or media keys.",
    "version": "0.1",
    "size": 1085984,
-   "sha256": "f55e16365a39bbeedda5022e90847b657fca160810646776da731d09f833a2ee",
+   "sha256": "a8392ee3262f77698a7e4dedf5a45631638c497fd80f74edaaf57bfbfb932055",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/macropad/firmware.bin"
   },
   {
@@ -78,7 +78,7 @@
    "notes": "",
    "version": "0.2",
    "size": 2151952,
-   "sha256": "31aec04d436a11df167f91310a032a25bb61097fd876864285bfd9e95c8209eb",
+   "sha256": "257a6740eca9792d4e4703d9d2a0e8eb06b0775541c3cf62971898b69483c152",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/mp3/firmware.bin"
   },
   {
@@ -88,7 +88,7 @@
    "notes": "",
    "version": "0.2",
    "size": 1533472,
-   "sha256": "4195bc787dc9d3c377b0542ea38d68bf5aa0bb010bdde2cf1460f16640004090",
+   "sha256": "1487ee6ddbe497c8854df97589f8aee3e026265f2438fe54918916189c47985e",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/photos/firmware.bin"
   },
   {
@@ -98,7 +98,7 @@
    "notes": "",
    "version": "0.3",
    "size": 914864,
-   "sha256": "9e4191881e3040ca31a9571901e93024e50b3af89b21895995c9090518bdb734",
+   "sha256": "4d181f18b2323d3467f6dd031b39fb943d6561ef03b5a9e1e6fd444d6c22223a",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/pomodoro/firmware.bin"
   },
   {
@@ -108,7 +108,7 @@
    "notes": "",
    "version": "0.5",
    "size": 916736,
-   "sha256": "a6413c26c78e72b3bd906970825599f353bdea3e18c21005873fd2410cdd8a39",
+   "sha256": "ab23aa628176900ce27b5475420949b344136e781ad89bfa2d5201423f64be2e",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/scores/firmware.bin"
   },
   {
@@ -118,7 +118,7 @@
    "notes": "0.5: Hotspot renamed My Pixlet. Format the card from the web page or serial.",
    "version": "0.5",
    "size": 1472432,
-   "sha256": "e1ab18dc593092b884d2f82d223fa0579afaeb50107fcc3ace6251ff21c5f086",
+   "sha256": "e1c391b0324632899cec672217beaf303665e63eee806f51e4c17b286d401345",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sdmanager/firmware.bin"
   },
   {
@@ -128,7 +128,7 @@
    "notes": "",
    "version": "0.2",
    "size": 854400,
-   "sha256": "25df82c9a8a5f56310a547cb81bc09b54d9e7e0882a2cf408ecc21308975c85e",
+   "sha256": "880ecdadd619103e3812d4903e329c34b1153ab5ead10386b7da8ef8d53b5655",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/stopwatch/firmware.bin"
   },
   {
@@ -138,7 +138,7 @@
    "notes": "",
    "version": "0.3",
    "size": 914864,
-   "sha256": "b5ca7c584525b494709f8c3d0a2111489381bb117762e236ea1b59b708d0d366",
+   "sha256": "b2a4dbe2f407b20bef5106ba85c791a2aefa86f1310e22fb24767aa7806f82f7",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/timers/firmware.bin"
   },
   {
@@ -148,7 +148,7 @@
    "notes": "",
    "version": "0.2",
    "size": 850064,
-   "sha256": "63013ae5877aa6c843ec3608b60a1fb48cfd5d360460a4bcfc8997be18f1b7c3",
+   "sha256": "163561882affee4221ea3f735d196208effd011c031df1fcec3c4b34938003e1",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/units/firmware.bin"
   },
   {
@@ -158,7 +158,7 @@
    "notes": "0.2: Bigger header buttons. Six places, hourly strip and 7-day forecast from Open-Meteo.",
    "version": "0.2",
    "size": 1609328,
-   "sha256": "3d72a93ce0a4bee752823572fbf4bd6b328ef97732366a142380c533f4c12840",
+   "sha256": "2e51956c153eff108ffe5e169fdbfd19ce737485408e201d308b748ec85e8274",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/weather/firmware.bin"
   },
   {
@@ -168,7 +168,7 @@
    "notes": "",
    "version": "0.5",
    "size": 1478432,
-   "sha256": "d0ea9a98300532e0e73f52bc6505c19f46e64ce25009d720da818117f80622ab",
+   "sha256": "dcf7ba13c0286fea184e23b2613525e04252140b601c7735cce9ac5810e2af03",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/worldtime/firmware.bin"
   }
  ]
