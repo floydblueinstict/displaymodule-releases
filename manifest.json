@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T21:40:48Z",
+ "generated": "2026-09-10T07:18:48Z",
  "apps": [
   {
    "id": "btc-monitor",
@@ -8,8 +8,8 @@
    "notes": "0.8: WiFi and display settings moved to the Pixlet home Settings; the Time tab keeps the time zone.",
    "version": "0.8",
    "system": false,
-   "size": 1844752,
-   "sha256": "51235786211fa3a2730d0d6aeb1df9afedc84f9994b66008d0d17e68353bb81f",
+   "size": 1846576,
+   "sha256": "91c73cf88bfdfbc44e65f794d4c4974050559f0ce910adc7ec1dba9514db58cc",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/btc-monitor/firmware.bin"
   },
   {
@@ -19,8 +19,8 @@
    "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.3",
    "system": false,
-   "size": 867600,
-   "sha256": "7f6a14f6d111ae7921c14fb0ac435f932f09da5c3ed0b781cb7009e380560ef9",
+   "size": 869440,
+   "sha256": "8a57d07465b859df7bf5c7da9bb8913bc98e629534b70d23324777b5e0bdc582",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
@@ -30,8 +30,8 @@
    "notes": "0.2: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.2",
    "system": true,
-   "size": 1944160,
-   "sha256": "228f463a8dcd63a9b1684afbf5648d28bf054fb2217b2255aec9018b8bc82981",
+   "size": 1945904,
+   "sha256": "76a8eda17803bc4416ecd49cd828a53e517c5da452e4a6546299ae4cb7d4572e",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/clock/firmware.bin"
   },
   {
@@ -41,8 +41,8 @@
    "notes": "0.5: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.5",
    "system": false,
-   "size": 915520,
-   "sha256": "d21449a511d58eb77dcc98b774f70eb004b35b8e7a34cb626e67da6ea266ecaa",
+   "size": 917280,
+   "sha256": "5192aaa5aeb1f05501ad00579eb962170f35b6ad7c6b7590e11637f28da3d597",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/dice/firmware.bin"
   },
   {
@@ -52,8 +52,8 @@
    "notes": "0.2: Today page in two columns so ten habits fit without scrolling; statistics rows show a percentage per habit, name and dots no longer overlap.",
    "version": "0.2",
    "system": false,
-   "size": 1460128,
-   "sha256": "980956624cae3df611320f48ecdb86b8a92bb2e30d09efdef2741c9bed58aee6",
+   "size": 1461808,
+   "sha256": "17df78d50c5caafd6e2a99d5185da846e41d12ede7da6fb3fa45837156cb6ed7",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/habits/firmware.bin"
   },
   {
@@ -63,19 +63,19 @@
    "notes": "0.1: First release. Eleven presets plus Custom, three simultaneous lanes, pause and cancel, rising three-tone chime, long-press a preset to change its time.",
    "version": "0.1",
    "system": false,
-   "size": 915344,
-   "sha256": "b6b14510eb52b78a9287981858d6a0aecfba641cef38f3a7cc01a0247cc23dee",
+   "size": 917216,
+   "sha256": "1ccc07a4c5677a667a6a8c29e8c27314a2fde2ce2e122ed7a266058caf9c3e22",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/kitchen/firmware.bin"
   },
   {
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.15: Battery percentage on the home page and the Info section, read from the cell on GPIO5; the 3.14 Technology news category.",
-   "version": "3.15",
+   "notes": "3.18: \"never\" option for dim-after on USB and on battery; the boot log prints the reset reason.",
+   "version": "3.18",
    "system": false,
-   "size": 1753264,
-   "sha256": "6c359a54cedd585f3d3127e0e4f4ae2a301451657c14e860d929711a9180b27f",
+   "size": 1755696,
+   "sha256": "5a267fc05cd7ab3e521b09a4e4aec2bf03371002ff18c63592697ff0493b692c",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -85,9 +85,20 @@
    "notes": "0.2: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.2",
    "system": false,
-   "size": 1086624,
-   "sha256": "90b68bca16941495f4f6919af0b318792ac722ab30294d9dd701e281491337c4",
+   "size": 1088448,
+   "sha256": "589c75db65463eb514d2a563be86bccae7247712011b5c113bdeb59adfb5cc16",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/macropad/firmware.bin"
+  },
+  {
+   "id": "markets",
+   "title": "Markets",
+   "description": "Up to twelve crypto, currency and stock tiles on one page, live changes in colour.",
+   "notes": "0.1: First release. Up to twelve tiles of crypto, currency pairs and stocks with coloured changes, picker with Crypto / Forex / Stock tabs, refresh every 2 minutes.",
+   "version": "0.1",
+   "system": false,
+   "size": 1568064,
+   "sha256": "7bf87f5b1126260e48f54b5c15cddce78cab03ab7e1b61c37d825012087d570e",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/markets/firmware.bin"
   },
   {
    "id": "mp3",
@@ -96,8 +107,8 @@
    "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.3",
    "system": false,
-   "size": 2152736,
-   "sha256": "d016a938b835444f5f380c92c7f653ec36f3c693a5b942efd2389459783a2447",
+   "size": 2154592,
+   "sha256": "900cc76c6ca03c9d5bd4a79ee50262a8e7f337edfdd1ea639ed32674a52e59b8",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/mp3/firmware.bin"
   },
   {
@@ -107,8 +118,8 @@
    "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.3",
    "system": false,
-   "size": 1533920,
-   "sha256": "c0ee75d1fc0ec43ff21f8e1cd969495276a78da2a34e32a46a7af927dfadecf1",
+   "size": 1535648,
+   "sha256": "18a163902dcab6dbc87a8bdc67d1df026d6ae652b59de44dac6067c7ee3bc9b3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/photos/firmware.bin"
   },
   {
@@ -118,8 +129,8 @@
    "notes": "0.4: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.4",
    "system": false,
-   "size": 915248,
-   "sha256": "012c043a093a03cba6281b3153aff063a39417c23c141c59207fe74b6ec5c8d8",
+   "size": 917104,
+   "sha256": "17e91d33554895edc4dbb8ac9caac645336bbfe955f809801b53307dd60f3bd2",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/pomodoro/firmware.bin"
   },
   {
@@ -129,8 +140,8 @@
    "notes": "0.6: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.6",
    "system": false,
-   "size": 917696,
-   "sha256": "2c06346cd1a586e4e3adce35366e2831ba4557e157de2fc60c8050f48cac4c73",
+   "size": 919472,
+   "sha256": "2182c536c9fd0a8de0e7be1122fd25e1c8870642115d7ddda416369516db9ab6",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/scores/firmware.bin"
   },
   {
@@ -140,8 +151,8 @@
    "notes": "0.6: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.6",
    "system": false,
-   "size": 1473216,
-   "sha256": "ecb8764340ae9040056649777e84559dc752b10498e931ece05c5129f18a8a20",
+   "size": 1474944,
+   "sha256": "8d574b58a07e58f2610d5a7d097a98fa01d550790936441c7f772d84c19c1f3d",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sdmanager/firmware.bin"
   },
   {
@@ -151,8 +162,8 @@
    "notes": "0.1: First release. 216 words with meaning, example and translation, one per day, quiz mode on tap, swipe for other days, long-press for a random word.",
    "version": "0.1",
    "system": false,
-   "size": 1481696,
-   "sha256": "225c6c9f9e1ce884e8bf8048010c9faeb6db84a57ab7f6e2239f1a14207db67d",
+   "size": 1483440,
+   "sha256": "853e7abbce2576aa7cd3aec6070164f12890f5ce9fe8c47c2e9065016d744430",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/spanish/firmware.bin"
   },
   {
@@ -162,8 +173,8 @@
    "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.3",
    "system": false,
-   "size": 855392,
-   "sha256": "3413cdec654fe2ca634e6a67a044a39df00c3999ea7642a6e4e3bf299b059378",
+   "size": 857200,
+   "sha256": "70de4dda98ff39add1e26b1a7e07081c661bf011b0401e5c05114cc9b0d858f0",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/stopwatch/firmware.bin"
   },
   {
@@ -173,8 +184,8 @@
    "notes": "0.1: First release. 99 concepts in eleven categories, one per day from the date, swipe for other days, long-press for a random one.",
    "version": "0.1",
    "system": false,
-   "size": 1455456,
-   "sha256": "4ab65d67485aeb7b01760bb1004f72c0c43b41316636ad2d70b3f8cc16df2522",
+   "size": 1457232,
+   "sha256": "748b6b3a43292eef5af13a926a592212d93cdd358ff3c01e7f2f271d6b24a1cd",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/techday/firmware.bin"
   },
   {
@@ -184,8 +195,8 @@
    "notes": "0.4: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.4",
    "system": true,
-   "size": 915520,
-   "sha256": "86d7c7c64e6adf0da26afd951741c401f5bfe913eeec67dee6feff8a55e74819",
+   "size": 917376,
+   "sha256": "3f40408dfc30bb972121b4e9b968f67be8f18f633f50872c4fd82afab5ba9ad8",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/timers/firmware.bin"
   },
   {
@@ -195,8 +206,8 @@
    "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.3",
    "system": false,
-   "size": 851040,
-   "sha256": "331ebfd56ed2304aecd41a12fe7f81ee9d82d4d001780b3338e05cf0d8b2bba0",
+   "size": 852816,
+   "sha256": "cbd19035b6b789ee5294137304c11a9c721a5c0decbcc13376203ab4592b30a3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/units/firmware.bin"
   },
   {
@@ -206,8 +217,8 @@
    "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
    "version": "0.3",
    "system": false,
-   "size": 1608304,
-   "sha256": "cd637dacfe8c09102617fa4d59a245cd6e0cf41c12925412d702a4c73d339740",
+   "size": 1610016,
+   "sha256": "da761911446037c54868f672ec6d50ea1992441b6f68bdbf05aac7ae6e5d6328",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/weather/firmware.bin"
   },
   {
@@ -217,8 +228,8 @@
    "notes": "0.7: Fixed a slow memory leak from switching time zones every second; zone offsets are now sampled every ten minutes.",
    "version": "0.7",
    "system": false,
-   "size": 1477184,
-   "sha256": "226813e0ebb0e46598b8067e910acb0b577b60ceebe5df805d4a797d99fbf5f3",
+   "size": 1478912,
+   "sha256": "6cc49344009824b11383ef50be27a9160bce37047d7b826f7618055f158e6ef2",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/worldtime/firmware.bin"
   }
  ]
