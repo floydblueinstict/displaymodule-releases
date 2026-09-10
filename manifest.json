@@ -1,18 +1,6 @@
 {
- "generated": "2026-09-10T14:34:56Z",
+ "generated": "2026-09-10T14:54:12Z",
  "apps": [
-  {
-   "id": "btc-monitor",
-   "title": "BTC Monitor",
-   "description": "Crypto terminal: live Binance chart, indicators, order book, alerts.",
-   "notes": "0.8: WiFi and display settings moved to the Pixlet home Settings; the Time tab keeps the time zone.",
-   "version": "0.8",
-   "system": false,
-   "category": "Markets",
-   "size": 1846768,
-   "sha256": "164f024658b80a0805322cf5b9107b6e0a366f22d21e798af737afbbec882370",
-   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/btc-monitor/firmware.bin"
-  },
   {
    "id": "calculator",
    "title": "Calculator",
@@ -36,6 +24,18 @@
    "size": 1946096,
    "sha256": "1bd604657c005485ba4ad88784d0daa670dba39c99b3acc24f78ab8216687496",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/clock/firmware.bin"
+  },
+  {
+   "id": "crypto-monitor",
+   "title": "Crypto Monitor",
+   "description": "Crypto terminal: live Binance chart, indicators, order book, alerts for BTC, ETH, SOL, KAS and more.",
+   "notes": "0.9: Renamed from BTC Monitor to Crypto Monitor (it watches BTC, ETH, SOL, KAS, ZEC and more). Settings and the candle cache carry over.",
+   "version": "0.9",
+   "system": false,
+   "category": "Markets",
+   "size": 1846784,
+   "sha256": "fa20f5e34dba430e0e36f90ceaac12042b8155b66b44397ebea1b30afb7453f7",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/crypto-monitor/firmware.bin"
   },
   {
    "id": "dice",
