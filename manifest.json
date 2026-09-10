@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T08:12:44Z",
+ "generated": "2026-09-10T08:43:47Z",
  "apps": [
   {
    "id": "btc-monitor",
@@ -159,11 +159,11 @@
    "id": "spanish",
    "title": "Spanish Word",
    "description": "Palabra del dia: a Spanish word a day with example and quiz mode.",
-   "notes": "0.2: The card was blank: the custom fonts were compressed and LVGL here has font compression off. Regenerated uncompressed and bigger (word 36, meaning 24, example 20, translation 16).",
-   "version": "0.2",
+   "notes": "0.3: The date and counter move into the card above the word, right-aligned, so they no longer overlap the header buttons.",
+   "version": "0.3",
    "system": false,
-   "size": 1523984,
-   "sha256": "4c0294c5102927febd1582b6ca5f7aabd7c4c35197b32df2bbd4f7cef77cd385",
+   "size": 1524000,
+   "sha256": "261d4e757736932f327e5eac514a2df33e987223985e42e3afaa7a676bf56237",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/spanish/firmware.bin"
   },
   {
@@ -181,11 +181,11 @@
    "id": "techday",
    "title": "Tech Concept",
    "description": "One technology concept explained in plain English every day.",
-   "notes": "0.1: First release. 99 concepts in eleven categories, one per day from the date, swipe for other days, long-press for a random one.",
-   "version": "0.1",
+   "notes": "0.2: The date and counter move into the card, right of the category chip, so they no longer run into the title.",
+   "version": "0.2",
    "system": false,
-   "size": 1457232,
-   "sha256": "748b6b3a43292eef5af13a926a592212d93cdd358ff3c01e7f2f271d6b24a1cd",
+   "size": 1457280,
+   "sha256": "521926a7f9b190d1112674d5372890848c6a20d28a63c26fc1a636f0161366ae",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/techday/firmware.bin"
   },
   {
