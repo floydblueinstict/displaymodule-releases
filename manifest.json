@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T12:49:44Z",
+ "generated": "2026-09-10T13:52:38Z",
  "apps": [
   {
    "id": "btc-monitor",
@@ -60,11 +60,11 @@
    "id": "kitchen",
    "title": "Kitchen Timer",
    "description": "Cooking timers: tap eggs, pasta, tea and more, three at once, loud chime.",
-   "notes": "0.1: First release. Eleven presets plus Custom, three simultaneous lanes, pause and cancel, rising three-tone chime, long-press a preset to change its time.",
-   "version": "0.1",
+   "notes": "0.2: Shorter header hint so it no longer runs under the home button.",
+   "version": "0.2",
    "system": false,
    "size": 917424,
-   "sha256": "fc1abf00805607fe6f083ac0f117b231622b96a5fdf7ba016963c8d7dc1e8755",
+   "sha256": "a7958cd24ac616c79c4334a3f6e63ba237a96b0af15b78c10b3752b141bc9342",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/kitchen/firmware.bin"
   },
   {
@@ -159,11 +159,11 @@
    "id": "spanish",
    "title": "Spanish Word",
    "description": "Palabra del dia: a Spanish word a day with example and quiz mode.",
-   "notes": "0.3: The date and counter move into the card above the word, right-aligned, so they no longer overlap the header buttons.",
-   "version": "0.3",
+   "notes": "0.4: The date line uses a separator the small font can draw.",
+   "version": "0.4",
    "system": false,
    "size": 1524144,
-   "sha256": "268e5c5ec18eca689989d28ceb7476100216b57f49cf6c399f885e5d278c0731",
+   "sha256": "ba20c5a26c8aec66b5c19dcc0218e23eff1c6ee1e40058c5887036037b4ef463",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/spanish/firmware.bin"
   },
   {
@@ -181,11 +181,11 @@
    "id": "techday",
    "title": "Tech Concept",
    "description": "One technology concept explained in plain English every day.",
-   "notes": "0.2: The date and counter move into the card, right of the category chip, so they no longer run into the title.",
-   "version": "0.2",
+   "notes": "0.3: The date line uses a separator the small font can draw.",
+   "version": "0.3",
    "system": false,
    "size": 1457440,
-   "sha256": "3d5b34adb62244f18959cb7c657d4542148730ec3db8010135bbfdfe1419d9db",
+   "sha256": "0caa07243d05ab9fc697838ceef289655835fadf737063a0234f5bb9fada9bd6",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/techday/firmware.bin"
   },
   {
