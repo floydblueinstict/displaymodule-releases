@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T07:49:15Z",
+ "generated": "2026-09-10T08:12:44Z",
  "apps": [
   {
    "id": "btc-monitor",
@@ -71,11 +71,11 @@
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.18: \"never\" option for dim-after on USB and on battery; the boot log prints the reset reason.",
-   "version": "3.18",
+   "notes": "3.19: Home page: the weather card moves up next to the clock and the market card down next to the second city.",
+   "version": "3.19",
    "system": false,
    "size": 1755696,
-   "sha256": "5a267fc05cd7ab3e521b09a4e4aec2bf03371002ff18c63592697ff0493b692c",
+   "sha256": "c9b3e13f9f70c1b1f60b4048228d4b17c5bebacaaa36b398dfeaebfe4558d968",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -159,11 +159,11 @@
    "id": "spanish",
    "title": "Spanish Word",
    "description": "Palabra del dia: a Spanish word a day with example and quiz mode.",
-   "notes": "0.1: First release. 216 words with meaning, example and translation, one per day, quiz mode on tap, swipe for other days, long-press for a random word.",
-   "version": "0.1",
+   "notes": "0.2: The card was blank: the custom fonts were compressed and LVGL here has font compression off. Regenerated uncompressed and bigger (word 36, meaning 24, example 20, translation 16).",
+   "version": "0.2",
    "system": false,
-   "size": 1483440,
-   "sha256": "853e7abbce2576aa7cd3aec6070164f12890f5ce9fe8c47c2e9065016d744430",
+   "size": 1523984,
+   "sha256": "4c0294c5102927febd1582b6ca5f7aabd7c4c35197b32df2bbd4f7cef77cd385",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/spanish/firmware.bin"
   },
   {
