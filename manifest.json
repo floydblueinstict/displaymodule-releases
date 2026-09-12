@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T14:54:12Z",
+ "generated": "2026-09-12T22:45:17Z",
  "apps": [
   {
    "id": "calculator",
@@ -10,7 +10,7 @@
    "system": false,
    "category": "Tools",
    "size": 869664,
-   "sha256": "4b78a2d257f11f11d3cf2a1dc35cc80448964ad53cc31d57dd9d9e09b5db8270",
+   "sha256": "fff8db1c7e3001c08041a28283617efd1f1dae969cde88a0218d63b7e055216e",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/calculator/firmware.bin"
   },
   {
@@ -22,19 +22,19 @@
    "system": true,
    "category": "Time",
    "size": 1946096,
-   "sha256": "1bd604657c005485ba4ad88784d0daa670dba39c99b3acc24f78ab8216687496",
+   "sha256": "ce726800120d618ddce306113d6d48159466dcb82d9dd98ad954322f793ada42",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/clock/firmware.bin"
   },
   {
    "id": "crypto-monitor",
    "title": "Crypto Monitor",
    "description": "Crypto terminal: live Binance chart, indicators, order book, alerts for BTC, ETH, SOL, KAS and more.",
-   "notes": "0.9: Renamed from BTC Monitor to Crypto Monitor (it watches BTC, ETH, SOL, KAS, ZEC and more). Settings and the candle cache carry over.",
-   "version": "0.9",
+   "notes": "0.13: Settings > Alerts shows which coin it's editing (\"Alerts for BTC\"). The High/Low prompts now suggest the current price +5%/-5% instead of reusing whatever was last saved.",
+   "version": "0.13",
    "system": false,
    "category": "Markets",
-   "size": 1846784,
-   "sha256": "fa20f5e34dba430e0e36f90ceaac12042b8155b66b44397ebea1b30afb7453f7",
+   "size": 1850976,
+   "sha256": "bc08034102fa6fce94ceb754aa71bb2ba8b52e0f279ec7f1aee652c60299e307",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/crypto-monitor/firmware.bin"
   },
   {
@@ -46,19 +46,19 @@
    "system": false,
    "category": "Games",
    "size": 917520,
-   "sha256": "3678e641d8cc05cdba2e2c47f7a933ac142cbd71a2c6d6438c2a4a568fa2cfdd",
+   "sha256": "c134d77e2bc11d80824386efe3796151d9b0525e97cf9cdde64f3d02ae2c0714",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/dice/firmware.bin"
   },
   {
    "id": "habits",
    "title": "Daily Habit",
-   "description": "Daily habit tracker: tap to tick off, swipe for streaks and 14-day dots.",
-   "notes": "0.2: Today page in two columns so ten habits fit without scrolling; statistics rows show a percentage per habit, name and dots no longer overlap.",
-   "version": "0.2",
+   "description": "Daily habit tracker: tap to tick off, edit a past day, swipe for week/month/year stats.",
+   "notes": "0.3: Today page can go back to a previous day (up to a year) to fix a missed tick without losing the current streak; Statistics gains month and year completion figures alongside the weekly ring, and a",
+   "version": "0.3",
    "system": false,
    "category": "Everyday",
-   "size": 1462016,
-   "sha256": "fa0dddd163e72cfa5c20971d422d9e3e5fe8f8c4aff51b9a5291e77bc48ad428",
+   "size": 1464128,
+   "sha256": "73b7415f07ef2aa2fa8418b3f6bc3c52209beec17d8a4306d9fa6f7cd7986af6",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/habits/firmware.bin"
   },
   {
@@ -70,19 +70,19 @@
    "system": false,
    "category": "Time",
    "size": 917456,
-   "sha256": "e5290428ce494c327f87f71a6ae15785541a64420c60a54d14a64e3226cb8fae",
+   "sha256": "7984b347c772f418dd97d11cefe715ed770433f90ec29383119c3c00603954f3",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/kitchen/firmware.bin"
   },
   {
    "id": "launcher",
    "title": "Launcher",
    "description": "The app menu itself. Installs when you next start any app.",
-   "notes": "3.20: Serial `d -<id>` deletes a Pixlet from the card (and its device-memory record).",
-   "version": "3.20",
+   "notes": "3.28: Settings > WiFi: forgetting a saved network is now a small trash icon on its row instead of a long-press, since a lingering tap could be misread as a long-press and silently forget it.",
+   "version": "3.28",
    "system": false,
    "category": "Home",
-   "size": 1757056,
-   "sha256": "2ae302befd5b4c75d75da5a326f78dc9f81fbf1c781ee1a4d68e098bc2b32033",
+   "size": 1787696,
+   "sha256": "2cb23f080cc023927922f62fa485ad5653a108ba5765626716477926920d2f77",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/launcher/firmware.bin"
   },
   {
@@ -94,7 +94,7 @@
    "system": false,
    "category": "Tools",
    "size": 1088672,
-   "sha256": "86b51fecda0df12dda5f04a702212a67421583eefb3d87423efbee1b1e873298",
+   "sha256": "004b06065d67f3552b44df0b1b906f5d2bed0d5303b2571a283c026365f19a0a",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/macropad/firmware.bin"
   },
   {
@@ -106,19 +106,19 @@
    "system": false,
    "category": "Markets",
    "size": 1568240,
-   "sha256": "2d8b28ddcc7e1317002b241f407653a7b464f46051ba4889422c416bb5178378",
+   "sha256": "b04acb1e477269fa49c994c22485b3974ff511edbe9401fd0691572c3664f8b2",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/markets/firmware.bin"
   },
   {
    "id": "mp3",
    "title": "Music",
    "description": "Music player for the card with spectrum analyzer.",
-   "notes": "0.3: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
-   "version": "0.3",
+   "notes": "0.9: \"Can't play <file>, skipping\" now also shows when a track's own connect reports success but the decoder can't actually run it (confirmed with a large M4A whose ftyp/moov atoms the audio library's",
+   "version": "0.9",
    "system": false,
    "category": "Media",
-   "size": 2154848,
-   "sha256": "3d18806eff6cb88fe93414a0cb7d9152c77faa772dffe6e9a58cdf3a9a30dc76",
+   "size": 2221200,
+   "sha256": "5a95734d861956085d024e2325cbc1927c02e7faa3f10dadcfec5e2e483e4f89",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/mp3/firmware.bin"
   },
   {
@@ -130,7 +130,7 @@
    "system": false,
    "category": "Media",
    "size": 1535856,
-   "sha256": "2de8d707259be19902c8104479046efe632347fc0559a9ed42df2f8a3d1c606a",
+   "sha256": "9fd078b3b2c216141a8d398bd07dc31ae8751813daf5302736708ad2646060d8",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/photos/firmware.bin"
   },
   {
@@ -142,7 +142,7 @@
    "system": false,
    "category": "Time",
    "size": 917344,
-   "sha256": "d3565abf5e0b8875bde412d9df5a0ea433c85f40ac2e34025b482ab974a7ac40",
+   "sha256": "1e7164f4c3adbd1e5e88505d3510d36ef89cfd207eacb4c5be5cdcc36c2fb998",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/pomodoro/firmware.bin"
   },
   {
@@ -154,19 +154,19 @@
    "system": false,
    "category": "Games",
    "size": 919712,
-   "sha256": "c8bc313d957eb0af1232f50039710891b93d3c2b564f67562d476794087ce72d",
+   "sha256": "6442bcbe9fb157ca73213b4d785980eceb7ed5ef2b7194b3b87bc69662b2645f",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/scores/firmware.bin"
   },
   {
    "id": "sdmanager",
    "title": "SD Manager",
    "description": "Hotspot and web page to manage the card's files.",
-   "notes": "0.6: WiFi, brightness and auto-dim moved to the Pixlet home Settings; the app follows the system brightness and dims when idle.",
-   "version": "0.6",
+   "notes": "0.9: Loading screen while WiFi joins, the hotspot starts and the web server comes up (previously the screen stayed blank for those few seconds since LVGL had nothing to draw until the hotspot page was",
+   "version": "0.9",
    "system": false,
    "category": "Tools",
-   "size": 1475152,
-   "sha256": "292273594471110219e2d06a416af0830155c9653d9ccb6187cf597766760186",
+   "size": 1475616,
+   "sha256": "22bdf5a22c6002bd02a2f79d9507dd5076b80752d97288362b445a521fcd0813",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/sdmanager/firmware.bin"
   },
   {
@@ -178,7 +178,7 @@
    "system": false,
    "category": "Learning",
    "size": 1524192,
-   "sha256": "e676221140ca0bd6fba0018525c2e539eadcba0a810d091f0172279579322566",
+   "sha256": "76ee741ceb5b94a35982d3aeb6a6e949745fe0785960afdddae4e7fb44cee4f9",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/spanish/firmware.bin"
   },
   {
@@ -190,7 +190,7 @@
    "system": false,
    "category": "Time",
    "size": 857392,
-   "sha256": "b05cbd6df3209854bba40edd03356cfd2a5ae25fa00c4b2e49d40b4ae3da9c29",
+   "sha256": "347d68b512dcdd852fb90e9448f22e8e82836fd602b28403190280bc7c27ff63",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/stopwatch/firmware.bin"
   },
   {
@@ -202,7 +202,7 @@
    "system": false,
    "category": "Learning",
    "size": 1457472,
-   "sha256": "33b6949cd71c6be0e435dd2b34a54daaee49c87ca39f3242d3733d783fa37eb5",
+   "sha256": "44ca1333b469f089368720ba7300ca3a317db08ff2fd7301fed39d909c8e41fe",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/techday/firmware.bin"
   },
   {
@@ -214,7 +214,7 @@
    "system": true,
    "category": "Time",
    "size": 917616,
-   "sha256": "0688710c836c40531cd76c8d8f3de51ec547fa53eaec0afb4824d243b959dc94",
+   "sha256": "cc201487db779cea929fa428189a127eabc11129655e00cc578a4387b85906e0",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/timers/firmware.bin"
   },
   {
@@ -226,8 +226,20 @@
    "system": false,
    "category": "Tools",
    "size": 853056,
-   "sha256": "480d67b178a0689270639580bbaa119707111a92c3fd5dbc77a7a152e8c0446d",
+   "sha256": "4a3df3fd200bdf2732551842cd311104301cd100656aca7b7ef48ba51e761bfa",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/units/firmware.bin"
+  },
+  {
+   "id": "vertigo",
+   "title": "Vertigo Relief",
+   "description": "Guided Brandt-Daroff and Epley home exercises for BPPV, with a timer and calm chime.",
+   "notes": "0.4: The repetitions number on the setup screen now sits properly centered between the - and + buttons (its box didn't match the actual gap between them, and its vertical position was a hardcoded gues",
+   "version": "0.4",
+   "system": false,
+   "category": "Everyday",
+   "size": 1049728,
+   "sha256": "344fb1c7735bc02af24345c8957f19e0000153a81788754e7b41f19ad141d82e",
+   "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/vertigo/firmware.bin"
   },
   {
    "id": "weather",
@@ -238,7 +250,7 @@
    "system": false,
    "category": "Everyday",
    "size": 1610240,
-   "sha256": "1e5909293f10bfb1c4be8df7d0575197a0b29eb85a2355a4a1477ac1c82d5997",
+   "sha256": "2e7c371d87423329ffb03b7c801adba221c8986ae4df9fe0bd5270e16051eb09",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/weather/firmware.bin"
   },
   {
@@ -250,7 +262,7 @@
    "system": false,
    "category": "Time",
    "size": 1479104,
-   "sha256": "29818d6cce2733bab5bcb84169c827735e9c4f3b256f4c9edd40430537f8b6ba",
+   "sha256": "39e5f11cf63040ddfd62e721489022c6f77a8dbd4a9efb7ee44dba09ea4a28ed",
    "url": "https://raw.githubusercontent.com/floydblueinstict/pixlet-releases/main/apps/worldtime/firmware.bin"
   }
  ]

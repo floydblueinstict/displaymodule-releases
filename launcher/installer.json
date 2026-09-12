@@ -1,6 +1,6 @@
 {
  "name": "Pixlet",
- "version": "3.20",
+ "version": "3.28",
  "new_install_prompt_erase": true,
  "builds": [
   {
@@ -16,11 +16,11 @@
     },
     {
      "path": "otadata_blank.bin",
-     "offset": 57344
+     "offset": 122880
     },
     {
      "path": "firmware.bin",
-     "offset": 65536
+     "offset": 131072
     }
    ]
   }
